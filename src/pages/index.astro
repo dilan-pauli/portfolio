@@ -33,6 +33,7 @@ const projects = (await getCollection("work"))
             width="620"
             src="/assets/Dilan-Logo.png"
             alt="Dilan's Sylized Logo"
+            style="min-width: 460px; min-height: 460px; max-width: 460px; max-height: 460;"
           />
           <img
             alt="Dilan Pauli smiling in a black turtle neck shirt and glasses"
@@ -44,14 +45,11 @@ const projects = (await getCollection("work"))
             Computer Engineer who is currently based in Saskatoon, Saskatchewan,
             Canada.
           </p>
-
           <div class="roles">
             <Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-            <!-- TODO -->
             <Pill>
               <Icon icon="microphone-stage" size="1.33em" /> Problem Solver
             </Pill>
-            <!-- TODO -->
             <Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
           </div>
       </header>
@@ -89,7 +87,7 @@ const projects = (await getCollection("work"))
         </div>
       </section>
 
-      <section class="section with-background bg-variant">
+      <!-- <section class="section with-background bg-variant">
         <header class="section-header stack gap-2 lg:gap-4">
           <h3>Mentions</h3>
           <p>
@@ -115,7 +113,7 @@ const projects = (await getCollection("work"))
             }
           </Grid>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <ContactCTA />
@@ -129,7 +127,7 @@ const projects = (await getCollection("work"))
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 2rem 2rem;
   }
 
   .title,
@@ -147,16 +145,15 @@ const projects = (await getCollection("work"))
     object-fit: cover;
     object-position: top;
     border-radius: 1.5rem;
-    box-shadow: var(--shadow-md);
   }
 
-  @media (min-width: 50em) {
+  @media (min-width: 65em) {
     .hero {
       font-size: var(--text-xl);
       display: grid;
       grid-template-columns: 6fr 4fr;
       padding-inline: 2.5rem;
-      gap: 2rem;
+      gap: 0.5rem 2rem
     }
 
     .tagline {
@@ -170,7 +167,7 @@ const projects = (await getCollection("work"))
     }
 
     .hero img {
-      aspect-ratio: 1;
+      aspect-ratio: 5 / 4;
       border-radius: 2rem;
       object-fit: cover;
     }

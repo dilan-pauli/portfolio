@@ -2,18 +2,18 @@
 :root {
 	/* Colors */
 	--gray-0: #ffffff;
-	--gray-50: #f3f4f7;
-	--gray-100: #e3e6ee;
-	--gray-200: #c3cadb;
-	--gray-300: #a3acc8;
-	--gray-400: #8490b5;
-	--gray-500: #6474a2;
-	--gray-600: #505d84;
-	--gray-700: #3d4663;
-	--gray-800: #283044;
-	--gray-900: #141925;
+	--gray-50: #f3f7f3;
+	--gray-100: #e4eee3;
+	--gray-200: #c3dbc6;
+	--gray-300: #a3c8a6;
+	--gray-400: #84b588;
+	--gray-500: #64a264;
+	--gray-600: #508457;
+	--gray-700: #3d6343;
+	--gray-800: #2b4428;
+	--gray-900: #0d180d;
 	--gray-999-basis: 225, 31%, 5%;
-	--gray-999: #090b11;
+	--gray-999: #020a02fb;
 
 	--accent-light: #005607;
 	--accent-regular: #25a611;
