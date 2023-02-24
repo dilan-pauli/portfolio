@@ -134,3 +134,4 @@ packages/integrations/**/.netlify/
 packages/**/test/**/fixtures/**/.astro/
 packages/**/test/**/fixtures/**/env.d.ts
 .astro/types.d.ts
+.astro/types.d.ts
